@@ -1,5 +1,4 @@
 # TODO:
-# - BR: trang
 # - package emacs file
 Summary:	Tools to validate AppData
 Summary(pl.UTF-8):	Narzędzia do weryfikacji AppData
@@ -18,9 +17,10 @@ BuildRequires:	glib2-devel >= 1:2.14.0
 BuildRequires:	intltool >= 0.35.0
 BuildRequires:	libsoup-devel >= 2.4
 BuildRequires:	libxslt-progs
-#BuildRequires:	python
-#BuildRequires:	python-lxml
+BuildRequires:	python
+BuildRequires:	python-lxml
 BuildRequires:	tar >= 1:1.22
+BuildRequires:	trang
 BuildRequires:	xz
 Requires:	glib2 >= 1:2.14.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -56,6 +56,8 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/appdata-validate
 %dir %{_datadir}/appdata/schema
 %{_datadir}/appdata/schema/appdata.rnc
+%{_datadir}/appdata/schema/appdata.rng
+%{_datadir}/appdata/schema/appdata.sch
 %{_datadir}/appdata/schema/appdata.xsd
 %{_datadir}/appdata/schema/schema-locating-rules.xml
 %{_aclocaldir}/appdata-xml.m4
