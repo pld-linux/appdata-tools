@@ -26,7 +26,9 @@ Requires:	glib2 >= 1:2.14.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tools to validate AppData.
+appdata-tools contains a command line program designed to validate
+AppData application descriptions for standards compliance and to the
+style guide.
 
 %description -l pl.UTF-8
 Narzędzia do weryfikacji AppData.
