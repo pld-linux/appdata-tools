@@ -31,7 +31,8 @@ AppData application descriptions for standards compliance and to the
 style guide.
 
 %description -l pl.UTF-8
-Narzędzia do weryfikacji AppData.
+Ten pakiet zawiera narzędzia do weryfikacji opisów aplikacji AppData
+pod kątem zgodności ze standardem i wskazówek dotyczących stylu.
 
 %prep
 %setup -q
