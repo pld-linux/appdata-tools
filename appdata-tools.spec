@@ -1,14 +1,15 @@
 # TODO:
-# - package emacs file
+# - package emacs file:
+# /usr/share/emacs/site-lisp/site-start.d/appdata-rng-init.el
 Summary:	Tools to validate AppData
 Summary(pl.UTF-8):	Narzędzia do weryfikacji AppData
 Name:		appdata-tools
-Version:	0.1.6
+Version:	0.1.7
 Release:	1
 License:	GPL v2+
 Group:		Applications/System
 Source0:	http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.xz
-# Source0-md5:	5654ff5b2e7a63ed9a6bdfa565952119
+# Source0-md5:	adc82ce1d396c45203a842a508114ead
 URL:		http://people.freedesktop.org/~hughsient/appdata/
 BuildRequires:	docbook-dtd43-xml
 BuildRequires:	gdk-pixbuf2-devel >= 2.0
