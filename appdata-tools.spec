@@ -4,17 +4,18 @@
 Summary:	Tools to validate AppData
 Summary(pl.UTF-8):	Narzędzia do weryfikacji AppData
 Name:		appdata-tools
-Version:	0.1.7
+Version:	0.1.8
 Release:	1
 License:	GPL v2+
 Group:		Applications/System
 Source0:	http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.xz
-# Source0-md5:	adc82ce1d396c45203a842a508114ead
+# Source0-md5:	47d8500b7b96fac6667c3173c77c1e66
 URL:		http://people.freedesktop.org/~hughsient/appdata/
+BuildRequires:	appstream-glib-devel >= 0.1.4
 BuildRequires:	docbook-dtd43-xml
 BuildRequires:	gdk-pixbuf2-devel >= 2.0
 BuildRequires:	gettext-devel
-BuildRequires:	glib2-devel >= 1:2.14.0
+BuildRequires:	glib2-devel >= 1:2.36.0
 BuildRequires:	intltool >= 0.35.0
 BuildRequires:	libsoup-devel >= 2.4
 BuildRequires:	libxslt-progs
@@ -23,7 +24,8 @@ BuildRequires:	python-lxml
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	trang
 BuildRequires:	xz
-Requires:	glib2 >= 1:2.14.0
+Requires:	appstream-glib >= 0.1.4
+Requires:	glib2 >= 1:2.36.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
