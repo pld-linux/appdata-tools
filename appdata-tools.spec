@@ -14,7 +14,7 @@ URL:		http://people.freedesktop.org/~hughsient/appdata/
 BuildRequires:	appstream-glib-devel >= 0.1.4
 BuildRequires:	docbook-dtd43-xml
 BuildRequires:	gdk-pixbuf2-devel >= 2.0
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	glib2-devel >= 1:2.36.0
 BuildRequires:	intltool >= 0.35.0
 BuildRequires:	libsoup-devel >= 2.4
