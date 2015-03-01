@@ -5,7 +5,7 @@ Summary:	Tools to validate AppData
 Summary(pl.UTF-8):	Narzędzia do weryfikacji AppData
 Name:		appdata-tools
 Version:	0.1.8
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Applications/System
 Source0:	http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.xz
